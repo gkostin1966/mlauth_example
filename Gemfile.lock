@@ -7,14 +7,33 @@ GIT
 
 GIT
   remote: https://github.com/mlibrary/mlauthd.git
-  revision: cca0d762add1fac1331140e58f90cb5a4c717271
+  revision: 9c7557a3492ff5686dec3d02bbb6e2dc8cfe3d4e
   specs:
     mlauthd (0.1.0)
+      hanami-api
+      puma
 
 GEM
   remote: https://rubygems.org/
   specs:
     gli (2.21.0)
+    hanami-api (0.2.0)
+      hanami-router (~> 2.0.alpha)
+    hanami-router (2.0.0.alpha6)
+      mustermann (~> 1.0)
+      mustermann-contrib (~> 1.0)
+      rack (~> 2.0)
+    hansi (0.2.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-contrib (1.1.1)
+      hansi (~> 0.2.0)
+      mustermann (= 1.1.1)
+    nio4r (2.5.8)
+    puma (5.6.4)
+      nio4r (~> 2.0)
+    rack (2.2.3.1)
+    ruby2_keywords (0.0.5)
 
 PLATFORMS
   arm64-darwin-21

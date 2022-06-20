@@ -1,0 +1,2 @@
+run Mlauthd::App.new
+
