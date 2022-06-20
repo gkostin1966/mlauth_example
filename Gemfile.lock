@@ -1,0 +1,27 @@
+GIT
+  remote: https://github.com/mlibrary/mlauth.git
+  revision: ceeb91f447c05cd3ff330e3ee60452232a51b85b
+  specs:
+    mlauth (0.1.0)
+      gli
+
+GIT
+  remote: https://github.com/mlibrary/mlauthd.git
+  revision: cca0d762add1fac1331140e58f90cb5a4c717271
+  specs:
+    mlauthd (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gli (2.21.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  mlauth!
+  mlauthd!
+
+BUNDLED WITH
+   2.3.8
